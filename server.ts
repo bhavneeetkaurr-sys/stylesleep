@@ -4,7 +4,11 @@ import fs from "fs";
 import crypto from "crypto";
 import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
+import dotenv from "dotenv";
 import { UserRole, OrderStatus } from "./src/types.js";
+
+// Load environment variables from .env file
+dotenv.config();
 
 // Initialize Gemini AI client
 const geminiApiKey = process.env.GEMINI_API_KEY || "";
@@ -20,7 +24,7 @@ const ai = geminiApiKey
   : null;
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const DB_FILE = path.join(process.cwd(), "src", "db_store.json");
 
 // Express middle-wares
@@ -572,8 +576,8 @@ app.post("/api/auth/login", (req, res) => {
   });
 });
 
-// Auth Get Me
-app.get("/api/auth/me", authenticate, (req: any, res) => {
+// Auth Get Me / Profile
+app.get(["/api/auth/me", "/api/auth/profile"], authenticate, (req: any, res) => {
   const db = getDB();
   const user = db.users.find((u: any) => u.id === req.user.id);
   if (!user) {
@@ -707,7 +711,7 @@ app.get("/api/products/:id", (req, res) => {
 });
 
 // Add Review
-app.post("/api/products/:id/review", (req, res) => {
+app.post(["/api/products/:id/review", "/api/products/:id/reviews"], (req, res) => {
   const { userName, rating, comment } = req.body;
   if (!userName || !rating) {
     return res.status(400).json({ error: "Username and rating are required." });

@@ -1,0 +1,528 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "StyleSleep Admin",
+      "email": "admin@stylesleep.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "admin",
+      "walletBalance": 0,
+      "createdAt": "2026-06-30T05:33:39.575Z"
+    },
+    {
+      "id": "user-1",
+      "name": "Bhavneet Kaur",
+      "email": "bhavneeetkaurr@gmail.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "customer",
+      "walletBalance": 250,
+      "phone": "+91 98765 43210",
+      "createdAt": "2026-06-30T05:33:39.576Z"
+    },
+    {
+      "id": "reseller-1",
+      "name": "Preeti Bedi",
+      "email": "reseller@stylesleep.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "reseller",
+      "walletBalance": 580,
+      "phone": "+91 99999 88888",
+      "referralCode": "SLEEP_PREETI_99",
+      "createdAt": "2026-06-30T05:33:39.576Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Royal Egyptian Cotton King Bedsheet",
+      "sku": "SS-COT-EGY-001",
+      "category": "Cotton Bedsheets",
+      "price": 180,
+      "discount": 15,
+      "resellerPrice": 125,
+      "stock": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=800&q=80"
+      ],
+      "sizes": [
+        "King",
+        "Queen"
+      ],
+      "material": "100% Egyptian Cotton",
+      "gsm": 400,
+      "threadCount": 800,
+      "color": "Classic Pearl White",
+      "description": "Indulge in pure luxury with our Egyptian Cotton Bedsheet. Sourced from the Nile delta, this exquisite bedsheet is combed to perfection and offers unparalleled softness, supreme durability, and a premium glossy finish that matches 7-star hotels.",
+      "features": [
+        "Extra-long staple fibers for rich texture and high durability",
+        "Sateen weave for a majestic silky feel",
+        "Deep pockets to fit mattress up to 18 inches",
+        "Eco-friendly, certified organic dyes"
+      ],
+      "careInstructions": [
+        "Machine wash warm on gentle cycle",
+        "Tumble dry low, remove promptly",
+        "Do not bleach, use mild detergents"
+      ],
+      "reviews": [
+        {
+          "id": "rev-1",
+          "userName": "Aishwarya R.",
+          "rating": 5,
+          "comment": "Absolutely incredible! The sateen weave is super soft and breathable. Feels like a high-end luxury resort bed.",
+          "date": "2026-06-15"
+        },
+        {
+          "id": "rev-2",
+          "userName": "Vikram S.",
+          "rating": 4.5,
+          "comment": "Premium quality bedsheet. Resold this to three clients already and they loved it. Highly recommended!",
+          "date": "2026-06-19"
+        }
+      ],
+      "rating": 4.8,
+      "isBestseller": true,
+      "isTrending": true
+    },
+    {
+      "id": "prod-2",
+      "name": "Tuscan Sunshine Linen Blossom Set",
+      "sku": "SS-LIN-BLS-002",
+      "category": "Premium Bedsheets",
+      "price": 210,
+      "discount": 20,
+      "resellerPrice": 140,
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+      ],
+      "sizes": [
+        "King",
+        "Double"
+      ],
+      "material": "Belgian Flax Linen",
+      "gsm": 350,
+      "threadCount": 400,
+      "color": "Sandy Gold & Cream",
+      "description": "Experience the cool, breathability of French flax. This Belgian linen bedsheet features delicate, modern floral embroidery with custom hand-finished hems. Perfect for summers, this sheets becomes softer with every single wash.",
+      "features": [
+        "Woven from high-grade natural French flax",
+        "Highly breathable, perfect for hot sleepers",
+        "Pre-washed for supreme vintage softness",
+        "Hypoallergenic and highly moisture-wicking"
+      ],
+      "careInstructions": [
+        "Wash separately in cold water on gentle",
+        "Line dry or tumble dry low",
+        "Linen's natural wrinkles are part of its beauty"
+      ],
+      "reviews": [
+        {
+          "id": "rev-3",
+          "userName": "Meera K.",
+          "rating": 5,
+          "comment": "The vintage wash color is so elegant. Fits my boho aesthetic perfectly.",
+          "date": "2026-05-22"
+        }
+      ],
+      "rating": 5,
+      "isNewArrival": true,
+      "isTrending": true
+    },
+    {
+      "id": "prod-3",
+      "name": "Imperial Mulberry Silk Premium Bedding",
+      "sku": "SS-SLK-IMP-003",
+      "category": "Luxury Bedsheets",
+      "price": 320,
+      "discount": 10,
+      "resellerPrice": 220,
+      "stock": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "sizes": [
+        "King"
+      ],
+      "material": "100% Mulberry Silk (19 Momme)",
+      "gsm": 250,
+      "threadCount": 1200,
+      "color": "Imperial Gold",
+      "description": "The ultimate peak of luxury bedding. Made from 100% Grade 6A Mulberry Silk, these bedsheets offer a buttery soft touch that protects your skin and hair while keeping you perfectly cool. Perfect as an ultra-luxury wedding gift.",
+      "features": [
+        "Grade 6A Mulberry silk for premium shine",
+        "Protects hair from frizz and reduces skin wrinkles",
+        "Naturally temperature-regulating all year round",
+        "Exquisite gift packaging included"
+      ],
+      "careInstructions": [
+        "Dry clean recommended, or hand wash cold with silk detergent",
+        "Lay flat to dry in shade, do not tumble dry",
+        "Iron on silk setting on the reverse side only"
+      ],
+      "reviews": [
+        {
+          "id": "rev-4",
+          "userName": "Rajesh G.",
+          "rating": 5,
+          "comment": "Simply outstanding. Worth every dollar. My premium clients buy these as wedding hampers.",
+          "date": "2026-06-25"
+        }
+      ],
+      "rating": 5,
+      "isBestseller": true
+    },
+    {
+      "id": "prod-4",
+      "name": "Grand Plaza Hotel Stripe White",
+      "sku": "SS-HOT-STR-004",
+      "category": "Hotel Collection",
+      "price": 130,
+      "discount": 10,
+      "resellerPrice": 90,
+      "stock": 80,
+      "images": [
+        "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "sizes": [
+        "King",
+        "Queen",
+        "Double"
+      ],
+      "material": "Cotton-Satin Blend",
+      "gsm": 380,
+      "threadCount": 600,
+      "color": "Bright Sterling White",
+      "description": "Recreate the five-star suite experience at home. This crisp bedsheet is designed with elegant 1-cm damask stripes and is crafted to withstand frequent washing without losing its luxury sheen and smooth feel.",
+      "features": [
+        "Mercerized for long-lasting high shine and silky softness",
+        "Shrink-resistant and wrinkle-resistant fabric",
+        "Anti-pilling treatment for crisp, long-term use",
+        "Preferred by top 5-star hotel chains globally"
+      ],
+      "careInstructions": [
+        "Machine wash hot with like colors",
+        "Bleach safe if necessary, tumble dry medium",
+        "Hot iron to get that professional crisp look"
+      ],
+      "reviews": [],
+      "rating": 4.5,
+      "isTrending": true
+    },
+    {
+      "id": "prod-5",
+      "name": "Cute Cosmos Galaxy Kids Bedsheet",
+      "sku": "SS-KID-COS-005",
+      "category": "Kids Collection",
+      "price": 90,
+      "discount": 25,
+      "resellerPrice": 58,
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+      ],
+      "sizes": [
+        "Single",
+        "Double"
+      ],
+      "material": "100% Breathable Organic Cotton",
+      "gsm": 280,
+      "threadCount": 300,
+      "color": "Cosmic Navy Blue",
+      "description": "Spark your child's imagination with stars, spaceships, and friendly aliens. Woven from ultra-soft, pure organic cotton that is certified chemical-free and extremely gentle on delicate skin.",
+      "features": [
+        "100% certified organic cotton safe for children",
+        "Glow-in-the-dark premium printing highlights",
+        "Pre-shrunk and highly fade-resistant colors",
+        "Comes with matching astronaut-shaped pillow covers"
+      ],
+      "careInstructions": [
+        "Machine wash cold, inside out",
+        "Tumble dry low, remove immediately",
+        "Do not dry clean"
+      ],
+      "reviews": [
+        {
+          "id": "rev-5",
+          "userName": "Priyanka T.",
+          "rating": 4.8,
+          "comment": "My son absolutely loves this! The stars really glow softly at night.",
+          "date": "2026-04-10"
+        }
+      ],
+      "rating": 4.8,
+      "isNewArrival": true
+    },
+    {
+      "id": "prod-6",
+      "name": "Heritage Summer Floral Queen Bedsheet",
+      "sku": "SS-COT-FLO-006",
+      "category": "Floral Bedsheets",
+      "price": 110,
+      "discount": 15,
+      "resellerPrice": 75,
+      "stock": 60,
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=800&q=80"
+      ],
+      "sizes": [
+        "Queen",
+        "Double"
+      ],
+      "material": "Pure Soft Percale Cotton",
+      "gsm": 300,
+      "threadCount": 450,
+      "color": "Mint Green & Pastel Rose",
+      "description": "Bring the serenity of an English summer garden into your bedroom. This pure cotton percale bedsheet is highly breathable, light, and features elegant floral motifs hand-painted by artisan designers.",
+      "features": [
+        "Cool, crisp feel ideal for hot summer months",
+        "Hand-painted floral digital print design",
+        "Highly sweat-absorbent and breathable",
+        "Full-surround robust elastic fitment"
+      ],
+      "careInstructions": [
+        "Machine wash cold with mild detergent",
+        "Tumble dry low or line dry in shade",
+        "Medium iron"
+      ],
+      "reviews": [
+        {
+          "id": "rev-6",
+          "userName": "Anjali M.",
+          "rating": 4.6,
+          "comment": "Colors are very beautiful and don't fade after washing. Excellent buy.",
+          "date": "2026-06-20"
+        }
+      ],
+      "rating": 4.6,
+      "isNewArrival": true
+    }
+  ],
+  "coupons": [
+    {
+      "code": "SLEEP10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minPurchase": 50,
+      "description": "Get 10% OFF on all elegant bedding with a minimum purchase of $50.",
+      "active": true
+    },
+    {
+      "code": "LUXURY50",
+      "discountType": "fixed",
+      "discountValue": 50,
+      "minPurchase": 250,
+      "description": "Save $50 flat on premium luxury bedding collections over $250.",
+      "active": true
+    },
+    {
+      "code": "RESELLERFREE",
+      "discountType": "percentage",
+      "discountValue": 100,
+      "minPurchase": 1000,
+      "description": "Special coupon code for high-volume resellers.",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "OD-10025",
+      "userId": "user-1",
+      "userRole": "customer",
+      "email": "bhavneeetkaurr@gmail.com",
+      "phone": "+91 98765 43210",
+      "customerName": "Bhavneet Kaur",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Royal Egyptian Cotton King Bedsheet",
+          "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+          "sku": "SS-COT-EGY-001",
+          "price": 153,
+          "quantity": 1,
+          "size": "King"
+        }
+      ],
+      "shippingAddress": {
+        "name": "Bhavneet Kaur",
+        "phone": "+91 98765 43210",
+        "street": "12A Elite Villas, Sector 45",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "zipCode": "160047"
+      },
+      "subtotal": 153,
+      "discount": 0,
+      "shippingCost": 0,
+      "finalTotal": 153,
+      "resellerEarnings": 0,
+      "paymentMethod": "Online",
+      "paymentStatus": "Paid",
+      "status": "Shipped",
+      "createdAt": "2026-06-27T10:30:00.000Z",
+      "trackingNumber": "TR-9831093129",
+      "trackingHistory": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-06-27T10:30:00.000Z",
+          "note": "Order placed successfully."
+        },
+        {
+          "status": "Payment Received",
+          "timestamp": "2026-06-27T10:31:00.000Z",
+          "note": "Online payment confirmed via Stripe."
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-06-27T14:15:00.000Z",
+          "note": "Order verified and confirmed by warehouse team."
+        },
+        {
+          "status": "Packed",
+          "timestamp": "2026-06-28T09:00:00.000Z",
+          "note": "Premium eco-friendly box packaging completed."
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-06-28T16:40:00.000Z",
+          "note": "Dispatched via Bluedart. Airway bill generated."
+        }
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "title": "How to Choose the Perfect Bedsheet Thread Count for Elite Comfort",
+      "slug": "choosing-perfect-thread-count",
+      "excerpt": "Is a higher thread count always better? Discover the scientific truths behind GSM, materials, and weaving methods to choose premium luxury bedding.",
+      "content": "Many buyers are misled into believing that a higher thread count automatically guarantees luxury bedding. However, the thread count simply measures the number of horizontal and vertical threads per square inch of fabric. In this comprehensive guide, we dissect the three pillars of elite bedsheet craftsmanship: fiber quality (Egyptian long-staple vs generic short-staple), thread count metrics (where 400-800 is the sweet spot of breathable luxury), and weaving architecture (silky sateen vs cool crisp percale). Choosing the right combination ensures you stay cool in the summer and warm in the winter without sweating.",
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "category": "Sleep Wellness",
+      "comments": [
+        {
+          "id": "c-1",
+          "userName": "Dr. Sandeep",
+          "comment": "Very informative article! Helps clarify why my 1000 TC sheets felt like plastic.",
+          "date": "2026-06-21"
+        }
+      ],
+      "date": "2026-06-20",
+      "author": "Samantha Carter",
+      "readTime": "5 mins read"
+    },
+    {
+      "id": "blog-2",
+      "title": "The Ultimate Guide to Starting a Home Bedsheet Reselling Business",
+      "slug": "start-home-reselling-business",
+      "excerpt": "Learn how you can easily start your own bedsheet reselling venture from home, earn steady passive income, and build customer loyalty with StyleSleep.",
+      "content": "Bedsheets are high-margin, evergreen products. Unlike fast fashion, they do not suffer from severe fitting or styling return issues. This makes bedsheets the ultimate choice for home-based resellers, boutique owners, and side-hustlers. In this guide, we teach you how to market premium bedsheets via WhatsApp status, Instagram stories, and direct family networks. We reveal how StyleSleep's reseller pricing enables you to pocket 40% profits instantly with zero inventory investment. Plus, we explore how to utilize our high-resolution creative packs to drive immediate orders.",
+      "image": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80",
+      "category": "Reseller Academy",
+      "comments": [],
+      "date": "2026-06-24",
+      "author": "Devendra Mehta",
+      "readTime": "7 mins read"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Ananya Sharma",
+      "role": "Gold Reseller",
+      "text": "I started reselling StyleSleep bedsheets from my home. The material is so premium that my clients keep ordering more. I made over $1,200 in profits last month alone!",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80",
+      "location": "New Delhi"
+    },
+    {
+      "id": "test-2",
+      "name": "Robert Miller",
+      "role": "Premium Customer",
+      "text": "The Egyptian Cotton sheets are absolutely divine. It matches the luxurious bedding in elite 5-star suites. Customer service was incredibly helpful too.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=120&q=80",
+      "location": "Los Angeles"
+    },
+    {
+      "id": "test-3",
+      "name": "Kiran Patel",
+      "role": "Elite Reseller",
+      "text": "Using StyleSleep's download templates and WhatsApp status packages, I resold 50 sets in my first week! The profit calculator is incredibly precise.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80",
+      "location": "Mumbai"
+    }
+  ],
+  "downloads": [
+    {
+      "id": "dl-1",
+      "title": "StyleSleep Luxury Bedsheets Catalog PDF",
+      "type": "pdf",
+      "url": "#",
+      "category": "Catalog",
+      "size": "12.4 MB"
+    },
+    {
+      "id": "dl-2",
+      "title": "WhatsApp Daily Creative Status Kit",
+      "type": "image",
+      "url": "#",
+      "category": "WhatsApp",
+      "size": "4.8 MB"
+    },
+    {
+      "id": "dl-3",
+      "title": "Instagram Luxury Collection High-Res Kit",
+      "type": "image",
+      "url": "#",
+      "category": "Instagram",
+      "size": "8.2 MB"
+    },
+    {
+      "id": "dl-4",
+      "title": "Egyptian Cotton Bedsheet Video Review",
+      "type": "video",
+      "url": "#",
+      "category": "Lifestyle",
+      "size": "25.1 MB"
+    },
+    {
+      "id": "dl-5",
+      "title": "Reseller Master Price List & Margins",
+      "type": "excel",
+      "url": "#",
+      "category": "Catalog",
+      "size": "1.1 MB"
+    }
+  ],
+  "contactMessages": [],
+  "addresses": {
+    "user-1": [
+      {
+        "id": "adr-1",
+        "name": "Bhavneet Kaur",
+        "phone": "+91 98765 43210",
+        "street": "12A Elite Villas, Sector 45",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "zipCode": "160047",
+        "isDefault": true
+      }
+    ]
+  },
+  "carts": {
+    "user-1": []
+  },
+  "wishlists": {
+    "user-1": [
+      "prod-2"
+    ]
+  }
+}

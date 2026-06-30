@@ -1,0 +1,6 @@
+{
+  "name": "StyleSleep",
+  "description": "StyleSleep is a premium, luxury bedsheet e-commerce platform and reseller ecosystem where users can buy elegant bedding and start a home-based reselling business with profit-sharing tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
